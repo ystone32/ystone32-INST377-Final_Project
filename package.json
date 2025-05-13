@@ -1,20 +1,31 @@
 {
-  "name": "back_end",
+  "name": "health_app",
   "version": "1.0.0",
   "description": "This is the back end stuff for my website",
+  "homepage": "https://github.com/ystone32/ystone32-INST377-Final_Project#readme",
+  "bugs": {
+    "url": "https://github.com/ystone32/ystone32-INST377-Final_Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ystone32/ystone32-INST377-Final_Project.git"
+  },
   "license": "ISC",
   "author": "Yona S",
   "type": "commonjs",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon -e '*'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "body-parser": "^2.2.0",
     "express": "^5.1.0",
     "nodemon": "^3.1.10",
-    "serverless-http": "^3.2.0"
+    "usa-state-validator": "^1.0.6"
   }
- 
-
 }

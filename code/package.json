@@ -1,0 +1,20 @@
+{
+  "name": "back_end",
+  "version": "1.0.0",
+  "description": "This is the back end stuff for my website",
+  "license": "ISC",
+  "author": "Yona S",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e '*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "serverless-http": "^3.2.0"
+  }
+ 
+
+}

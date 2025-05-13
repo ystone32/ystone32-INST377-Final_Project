@@ -2,29 +2,26 @@
 
 <head>
     <title>Home Page</title>
-    <link rel="stylesheet" href="healthy.css">
+    <link rel="stylesheet" href="home_page.css">
     <script src="home_page.js" defer></script>
 </head>
 
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>MindNest</h1>
-    </header>
-
-    <!-- Navigation Section -->
-    <nav id="main-nav">
+    <nav>
+        <div class="nav-bg"></div>
         <ul>
-            <li><a href="home_page.html">Home</a></li>
-            <li><a href="about_page.html">About</a></li>
-            <li><a href="explore_page.html">Explore</a></li>
+          <li><a href="home_page.html">Home</a></li>
+          <li><a href="about_page.html">About</a></li>
+          <li><a href="explore_page.html">Explore</a></li>
         </ul>
-    </nav>
-
-
-
-
-    <h1>Our Customers!</h1>
+      </nav>
+      <div class="hero">
+        <h1>Welcome!</h1>
+      </div>
+      <div class="content-wrapper">
+        <h1>NutriMotion</h1>
+        <p>Cray marfa artisan mlkshk tote bag. Freegan man braid master cleanse, pork belly retro artisan man bun hammock cronut quinoa roof party. Pop-up cardigan poutine meditation, affogato stumptown wolf fashion axe pug. Listicle paleo seitan keytar, twee kinfolk salvia meggings cold-pressed retro fingerstache typewriter organic cred. Tacos church-key gochujang, swag ugh squid put a bird on it VHS fingerstache ennui cardigan craft beer. Taxidermy beard you probably haven't heard of them four dollar toast PBR&B. Poutine lo-fi blue bottle, twee hammock sriracha godard.</p>
+        <h1>Join us!</h1>
     <form onsubmit="createCustomer(); return false;">
         <label for="firstName">First Name:</label>
         <input type="text" id="firstName">
@@ -38,6 +35,9 @@
         <br>
         <input type="submit" name="Add Customer">
     </form>
+        
+      </div>
+
 </body>
 
 </html>

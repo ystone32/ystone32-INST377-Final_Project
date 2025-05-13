@@ -59,7 +59,7 @@ async function createCustomer() {
           preExistingTable.remove();
         }
   
-        document.body.appendChild(table);
+        document.getElementById('cool_content').appendChild(table);
       });
   }
   $(document).ready(function() {

@@ -1,0 +1,31 @@
+#main-nav {
+    background-color: crimson;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  
+#main-nav a {
+    color: white; 
+  }
+
+
+#main-nav li:hover {
+    background-color: #7c7c7c;
+  }
+  
+#main-nav ul li {
+    list-style-type: none;
+    display:inline-block;
+    text-align: center;
+    padding: 10px;
+  
+  }
+  #heading {
+    text-align: center;
+    background-color: aqua;
+    margin-bottom: -25px;
+  }
+  body {
+    background-color:bisque
+  }

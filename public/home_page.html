@@ -2,24 +2,27 @@
 
 <head>
     <title>Home Page</title>
-    <link rel="stylesheet" href="home_page.css">
+    <link rel="stylesheet" href="home_explore_about.css">
     <script src="home_page.js" defer></script>
 </head>
 
 <body>
-    <nav>
-        <div class="nav-bg"></div>
-        <ul>
-          <li><a href="home_page.html">Home</a></li>
-          <li><a href="about_page.html">About</a></li>
-          <li><a href="explore_page.html">Explore</a></li>
-        </ul>
-      </nav>
-      <div class="hero">
-        <h1>Welcome!</h1>
-      </div>
-      <div id="cool_content" class="content-wrapper">
-        <h1>NutriMotion</h1>
+    <!-- Header Section -->
+    <header id="heading">
+      <h1>Welcome!</h1>
+  </header>
+  
+  <!-- Navigation Section -->
+<nav id="main-nav">
+  <ul>
+      <li><a href="home_page.html">Home</a></li>
+      <li><a href="about_page.html">About</a></li>
+      <li><a href="explore_page.html">Explore</a></li>
+  </ul>
+</nav>
+ <!-- Main text Area -->
+ <div id="cool_content" class="content-wrapper">
+  <h1>NutriMotion</h1>
         <p>You are probably wondering what the heck NutriMotion is! Click on the About page and Explore page to learn more about it. If you are interested enough, submit your name, and this App might actually happen!</p>
         <h1>Join us!</h1>
     <form onsubmit="createCustomer(); return false;">
@@ -35,8 +38,9 @@
         <br>
         <input type="submit" name="Add Customer">
     </form>
-        
-      </div>
+    
+
+ </div>
 
 </body>
 

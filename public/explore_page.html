@@ -65,13 +65,26 @@
         <br>
 
         <div id="cityStat">
-            <h1>View the Obesity Rate by Major City! </h1>
+            <h1>View the Obesity Rate by Major City!</h1>
+            <form method="get" onsubmit="obesitySubmission(event)">
+              <label for="city_opt">Please input a Major City: </label>
+              <input type="text" id="city_opt" required>
+              <br>
+              <input type="submit" value="Lookup" class="button-50">
+            </form>
+            <a id="city_name"></a>
+            <br>
+            <a id="obesity_rate"></a>
+          </div>
 
-
+        <div id="cityMap">
+            <h1>Mapping All of my Supporters!</h1>
 
 
 
         </div>
+        
+    </div>
 
 
 

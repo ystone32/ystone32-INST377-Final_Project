@@ -48,4 +48,11 @@
     font-family: "Open Sans";
     text-indent: 1.5em;
   }
-  
+
+.button-50 {
+    background-color: aqua;
+    color: #FF013C;
+}
+.button-50:hover {
+    background-color: greenyellow;
+}

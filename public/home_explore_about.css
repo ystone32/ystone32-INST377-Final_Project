@@ -58,3 +58,9 @@
 .button-50:hover {
     background-color: greenyellow;
 }
+#map {
+  height: 500px;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}

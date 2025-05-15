@@ -2,9 +2,15 @@
     <head>
         <title>Explore Page</title>
         <link rel="stylesheet" href="home_explore_about.css">
-        <script src='explore_page.js' defer></script>
+        <script src='home_explore_page.js' defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
-
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+   
 
     </head>
     <body>
@@ -78,13 +84,16 @@
           </div>
           <br>
 
-        <!--Mapping Sign Ups-->
-        <div id="cityMap">
-            <h1>Mapping All of My Supporters!</h1>
-
-
-
+        <!--Mapping Places Been-->
+        <h1>Mapping My Supporters!</h1>
+        <div id="map"> 
         </div>
+        <a>Since you guys are all very special to me, I though it 
+            would be cool to map all of you guys!</a>
+        <br>
+        <a id="uCount"></a> 
+       
+    
         
     </div>
 

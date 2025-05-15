@@ -1,3 +1,2 @@
  # Project Details
- ## Title
- LaughLagoon
+ Title: LaughLagoon
